@@ -1,0 +1,31 @@
+* {
+  color: rgb(43, 35, 35);
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+:root {
+  --grey: #8c8c8c;
+  --lightred: #ffe9e9;
+  --lightsalmon: #d85c5c;
+  --salmon: #dd3838;
+  --darkred: #802929;
+}
+
+#app {
+  min-height: 100vh;
+  background-color: var(--lightred);
+}
+
+a {
+  color: var(--grey);
+  text-decoration: underline;
+}
